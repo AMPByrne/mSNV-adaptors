@@ -8,9 +8,13 @@ a frequency above another user-defined minimum.
 The parametersFile should be the arguments for this script. An example is
 example.filt_args.
 
-The aa_ref file header also needs to include the reading frame and offset
-of the sequence in nt (with respect to the nucleotide reference sequence
-for that gene).
+The aa_ref file header also needs to include the reading frame (1, 2 or 3) and offset
+of the sequence in amino acids with respect to the nucleotide reference sequence
+for that gene. An example of how to format this is shown in the reference for PB1
+included in the repository. PB1_2_3 indicates that when the nucleotide reference
+sequence of PB1 was translated (using the ExPASy online tool) that the protein
+sequence was in reading frame 2 and there was a gap of 3 amino acids at the start before
+the start of the ORF i.e. the M residue was in position 4.
 '''
 
 import sys
