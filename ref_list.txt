@@ -1,0 +1,8 @@
+/home/p946572/python/compare/refs/HA
+/home/p946572/python/compare/refs/MA
+/home/p946572/python/compare/refs/NA
+/home/p946572/python/compare/refs/NP
+/home/p946572/python/compare/refs/NS
+/home/p946572/python/compare/refs/PA
+/home/p946572/python/compare/refs/PB1
+/home/p946572/python/compare/refs/PB2

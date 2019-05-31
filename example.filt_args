@@ -1,0 +1,6 @@
+results_path = "/home/p946572/mnt/APHARDEU1402/VarResCOMPARE/Ck2708-R1-7dpi__Versus__###__callQth_30__mapQth_40/Ck2708-R1-7dpi_mapQth_40_callQth_30.csv" #This is the paths of the output files from Javi's script with the gene name replaced with ###. This will only work if your original reference file is just called "HA" etc.
+nt_ref_path = "/home/p946572/python/compare/refs" #This is the directory where you're storing your reference sequences
+aa_ref_path = "/home/p946572/python/compare/aa_refs" #this is the directory where you've put the protein reference sequences. Again, these should just be called "HA" etc. with no file extension.
+min_var_freq = 0.05 #The minimum frequency you want to filter. 0.05 = 5%
+min_cov = 5 #The minimum coverage you want to filter for
+output_path = "/home/p946572/mnt/APHARDEU1402/COMPARE_Filtered_Results" #The path of the directory where you want the outputs to go.
